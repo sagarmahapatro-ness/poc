@@ -1,0 +1,25 @@
+<div ng-controller="sankeyCtrl" style="height: 92%;width: 100%;">
+     <div layout="row" layout-xs="row"  style="height: 92%;width: 100%;">
+        <div  flex="70" id="chart"></div>
+         <div flex="30" id="infoPanel" >
+          <md-content layout-padding layout="column">
+           <md-toolbar>
+              <span>Info Panel</span>
+            </md-toolbar>
+             <div flex="30" layout="column">
+              <md-checkbox
+              ng-model="showPIInTooltip"
+              aria-label="Checkbox 2"
+              class="md-warn md-align-top-left" flex>
+               Enable PI Chart in Tooltips
+              </md-checkbox>
+
+              </div>
+              <div flex="70"  layout="column" layout-align="end center">
+                  <div id="donuts-preview" ></div>
+               </div> 
+           </md-content>         
+         </div>
+     </div>
+
+</div>

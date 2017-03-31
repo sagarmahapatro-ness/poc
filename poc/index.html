@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+      <title>Pifzer POC</title>
+      <link rel="stylesheet" href="lib/angular-material/1.0.0/angular-material.min.css">
+      <link rel="stylesheet" href="css/app.css">
+      <script src="lib/angularjs/1.4.8/angular.min.js"></script>
+      <script src="lib/angularjs/1.4.8/angular-animate.min.js"></script>
+      <script src="lib/angularjs/1.4.8/angular-aria.min.js"></script>
+      <script src="lib/angularjs/1.4.8/angular-messages.min.js"></script>
+      <script src="lib/angular-material/1.0.0/angular-material.min.js"></script>
+      <script src="lib/d3js/d3.v3.min.js"></script>
+      <script src="lib/sankey/sankey.js"></script>
+      <script src="lib/sankey/d3.chart.min.js"></script>
+      <script src="lib/sankey/d3.chart.sankey.min.js"></script>
+       <script src="lib/d3js/d3.tip.v0.6.3.js"></script>
+      <script src="js/App.js"></script>
+      <script src="js/sankey/sankeyCtrl.js"></script>
+    </head>
+    <body ng-app="pifzerPOCApp" ng-controller="appCtrl">
+
+        <md-toolbar class="md-warn">
+         <div class="md-toolbar-tools">
+            <h2 class="md-flex">Pifzer Charts - {{selectedReoprt.name}} </h2>
+         </div>
+      </md-toolbar>
+      <md-content flex layout-padding style="height: 92%;width: 100%;">
+       <div id="layoutContainer"  style="height: 97%; width: 99%;" ng-cloak>
+           <div layout="column" layout-xs="column" style="height: 97%; width: 100%;">
+            <div flex="10"  class="green box">
+                <md-input-container>
+                    <label>Charts</label>
+                    <md-select ng-model="selectedReoprt">
+                       <md-option ng-value="reoprt" ng-repeat="reoprt in reoprts">{{ reoprt.name }}</md-option>
+                    </md-select>
+                 </md-input-container>
+            </div>
+            <div flex="90"  class="blue box" ng-include="selectedReoprt.url"></div>
+         </div>
+      </div>
+      </md-content>
+        </div>
+    </body>    
+</html>   

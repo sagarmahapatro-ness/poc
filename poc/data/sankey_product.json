@@ -1,0 +1,227 @@
+{
+   "nodes" : [
+    {
+         "name" : "Matarial A",
+         "id" : "matarial_a",
+         "data" : {
+             "QA":25,
+             "QC":25,
+             "PROD":25,
+             "Recived":25
+         }
+    },
+	{
+         "name" : "Matarial B",
+         "id" : "matarial_b",
+         "data" : {
+             "QA":25,
+             "QC":20,
+             "PROD":30,
+             "Recived":25
+         }
+    },
+	{
+         "name" : "Matarial C",
+         "id" : "matarial_c",
+         "data" : {
+             "QA":10,
+             "QC":20,
+             "PROD":35,
+             "Recived":35
+         }
+    },
+    {
+         "name" : "Matarial D",
+         "id" : "matarial_b",
+         "data" : {
+             "QA":25,
+             "QC":20,
+             "PROD":30,
+             "Recived":25
+         }
+    },{
+         "name" : "Matarial E",
+         "id" : "matarial_b",
+         "data" : {
+             "QA":25,
+             "QC":25,
+             "PROD":25,
+             "Recived":25
+         }
+    },
+    {
+         "name" : "Matarial F",
+         "id" : "matarial_b",
+         "data" : {
+              "QA":25,
+             "QC":20,
+             "PROD":30,
+             "Recived":25
+         }
+    },
+    {
+         "name" : "Matarial G",
+         "id" : "matarial_b",
+         "data" : {
+             "QA":25,
+             "QC":25,
+             "PROD":25,
+             "Recived":25
+         }
+    },
+	
+	{
+         "name" : "Semi-finished Matarial H",
+         "id" : "semi-finished_matarial_c",
+         "data" : {
+             "QA":25,
+             "QC":20,
+             "PROD":30,
+             "Recived":25
+         }
+    },
+	{
+         "name" : "Semi-finished Matarial I",
+         "id" : "semi-finished_matarial_d",
+         "data" : {
+             "QA":10,
+             "QC":20,
+             "PROD":35,
+             "Recived":35
+         }
+    },
+	{
+         "name" : "Finished Matarial J",
+         "id" : "finished_matarial_e",
+         "data" : {
+             "QA":25,
+             "QC":20,
+             "PROD":30,
+             "Recived":25
+         }
+    },
+	{
+         "name" : "Packaged Matarial K",
+         "id" : "packaged_matarial",
+         "data" : {
+             "QA":25,
+             "QC":25,
+             "PROD":25,
+             "Recived":25
+         }
+    }
+
+    ,
+	{
+         "name" : "Packaged Matarial L",
+         "id" : "packaged_matarial",
+         "data" : {
+             "QA":25,
+             "QC":20,
+             "PROD":30,
+             "Recived":25
+         }
+    }
+    ,
+	{
+         "name" : "Packaged Matarial M",
+         "id" : "packaged_matarial",
+         "data" : {
+             "QA":10,
+             "QC":20,
+             "PROD":35,
+             "Recived":35
+         }
+    }
+    ,
+    {
+         "name" : "Packaged",
+         "id" : "packaged_matarial",
+         "data" : {
+             "QA":25,
+             "QC":20,
+             "PROD":30,
+             "Recived":25
+         }
+    }
+	
+      
+   ],
+   "links" : [
+      {
+         "source" : 0,
+         "value" : 0.342284047256003,
+         "target" : 7
+      },
+	  {
+         "source" : 1,
+         "value" : 0.342284047256003,
+         "target" : 7
+      },
+	  {
+         "source" : 2,
+         "value" : 0.342284047256003,
+         "target" : 7
+      },
+	  {
+         "source" : 3,
+         "value" : 0.342284047256003,
+         "target" : 8
+      },
+	  {
+         "source" : 4,
+         "value" : 0.342284047256003,
+         "target" : 8
+      },
+      {
+         "source" : 4,
+         "value" : 0.342284047256003,
+         "target" : 9
+      },
+	  {
+         "source" : 5,
+         "value" : 0.342284047256003,
+         "target" : 9
+      }
+      ,
+	  {
+         "source" : 6,
+         "value" : 0.342284047256003,
+         "target" : 9
+      },
+      {
+         "source" : 7,
+         "value" : 0.342284047256003,
+         "target" : 10
+      }
+      ,
+      {
+         "source" : 8,
+         "value" : 0.342284047256003,
+         "target" : 11
+      },
+      {
+         "source" : 9,
+         "value" : 0.342284047256003,
+         "target" : 11
+      }
+      ,
+      {
+         "source" : 10,
+         "value" : 0.342284047256003,
+         "target" : 12
+      }
+      ,
+      {
+         "source" : 11,
+         "value" : 0.342284047256003,
+         "target" : 12
+      }
+      ,
+      {
+         "source" : 12,
+         "value" : 0.342284047256003,
+         "target" : 13
+      }
+   ]
+}
