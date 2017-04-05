@@ -53,14 +53,16 @@ d3.sankey = function() {
   sankey.link = function() {
     var curvature = .5;
 
-    function link(d) {
+   function link(d) {
+     console.log(" compute link ");
+     console.dir(d);    
       var x0 = d.source.x + d.source.dx,
           x1 = d.target.x,
           xi = d3.interpolateNumber(x0, x1),
           x2 = xi(curvature),
           x3 = xi(1 - curvature),
-          y0 = d.source.y + d.sy + d.dy / 2,
-          y1 = d.target.y + d.ty + d.dy / 2;
+          y0 = d.source.y + d.source.dy / 2,
+          y1 = d.target.y + d.target.dy / 2;
       return "M" + x0 + "," + y0
            + "C" + x2 + "," + y0
            + " " + x3 + "," + y1
@@ -74,6 +76,7 @@ d3.sankey = function() {
     };
 
     return link;
+
   };
 
   // Populate the sourceLinks and targetLinks for each node.

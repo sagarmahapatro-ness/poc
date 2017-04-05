@@ -1,0 +1,6 @@
+This database describes the business information of an Internet company named AC. This company sales different internet packages for a wide range of customers. In this database you will find data regarding different customers and internet packages
+
+# Creeate schema begin 
+CREATE TABLE 
+
+# Creeate schema end 

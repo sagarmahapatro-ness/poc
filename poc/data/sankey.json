@@ -1,0 +1,101 @@
+{
+	"nodes": [{
+			"name": "Matarial A"
+		}, {
+			"name": "Matarial B"
+		}, {
+			"name": "Matarial C"
+		}, {
+			"name": "Matarial D"
+		}, {
+			"name": "Matarial E"
+		}, {
+			"name": "Matarial F"
+		}, {
+			"name": "Matarial G"
+		}, {
+		  "name": "Semifinished Matarial H"
+		}
+		, {
+		   "name": "Semifinished Matarial i"
+		}, {
+			"name": "Semifinished Matarial j"
+		},
+		 {
+			"name": "Semifinished Matarial K"
+		}
+		, {
+			"name": "Semifinished Matarial L"
+		}
+		, {
+			"name": "Semifinished Matarial M"
+		}
+
+	],
+	"links": [{
+			"source": 0,
+			"target": 7,
+			"value": 2
+
+		}, {
+			"source": 1,
+			"target": 7,
+			"value": 2
+
+		}, {
+			"source": 2,
+			"target": 7,
+			"value": 3
+
+		}, {
+			"source": 3,
+			"target": 8,
+			"value": 2
+
+		}, {
+			"source": 4,
+			"target": 8,
+			"value": 2
+
+		}, {
+			"source": 5,
+			"target": 9,
+			"value": 2
+
+		}, {
+			"source": 6,
+			"target": 9,
+			"value": 2
+
+		}
+		, {
+			"source": 7,
+			"target": 10,
+			"value": 2
+
+		}, {
+			"source": 8,
+			"target": 11,
+			"value": 2
+
+		}
+		, {
+			"source": 9,
+			"target": 11,
+			"value": 2
+
+		}
+		, {
+			"source": 10,
+			"target": 12,
+			"value": 2
+
+		}, {
+			"source": 11,
+			"target": 12,
+			"value": 2
+
+		}
+
+	]
+}

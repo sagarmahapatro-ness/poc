@@ -1,0 +1,93 @@
+[
+	{
+		"nodes":[
+			{
+        	"id":"H000203470",
+        	 "name":"m",
+        	 "description":"XALATAN 50MCG/ML IP BTA PRE-B"
+           },
+             {
+        	"id":"H000203392",
+        	"name":"m",
+        	 "description":"XALATAN 2,5ML PRE-BO BTA"
+           },
+ 		   {
+        	"id":"F000007841",
+        	"name":"m",
+        	 "description":"XALATAN 50mcg/ml OPSOL 1x2.5ml PPBTL CA"
+           }
+ 		],
+        "links":[
+        	{
+			"source": 0,
+			"target": 1,
+			"value": 2
+		    },
+		    {
+			"source": 1,
+			"target": 2,
+			"value": 2
+		    }
+        ] 
+	},
+	{
+		"nodes":[
+		   {
+        	"id":"H000203391",
+        	"name":"m",
+        	"description":"XALATAN 2,5ML PRE-BO CRK"
+           }
+           ,
+           {
+        	"id":"F000007981",
+        	"name":"m",
+        	"description":"XALATAN 50mcg/ml OPSOL 1x2.5ml PPBTL CA"
+           }
+		],
+        "links":[{
+			"source": 0,
+			"target": 1,
+			"value": 2
+		}] 
+	},
+	{
+		"nodes":[{
+        	"id":"H000203559",
+        	"name":"m",
+        	 "description":"D-MEDROL 40 AC(MAGN) SAS RES"
+        },
+        {
+        	"id":"H000203719",
+        	"name":"m",
+        	 "description":"SSC-STER. STOP 13MM BB FM51/0 RED"
+        },
+        {
+        	"id":"H000203244",
+        	"name":"m",
+        	 "description":"D-MEDROL (AC) 40 5ML V AH"
+        },
+        {
+        	"id":"F000149966",
+        	"name":"m",
+        	 "description":"MODERIN LA 40mg/ml SASUS 1x5ml GV BE"
+        }
+    ],
+        "links":[
+	        {
+				"source": 0,
+				"target": 2,
+				"value": 2
+			},
+			{
+				"source": 1,
+				"target": 2,
+				"value": 2
+			},
+			{
+				"source": 2,
+				"target": 3,
+				"value": 2
+			}
+        ] 
+	}
+]

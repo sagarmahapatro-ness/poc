@@ -1,0 +1,16 @@
+<div ng-controller="matariaDiagramCtr" style="height: 92%;width: 100%;">
+  <section layout="row" >
+  <div id="chartmetarial"></div>
+  <div layout="column">
+        <md-input-container>
+            <label>Finished Metarials</label>
+            <md-select ng-model="batchIndex">
+               <md-option ng-value="batch" ng-repeat="batch in batcheInfo">{{ batch.rootInfo.description}}</md-option>
+            </md-select>
+        </md-input-container>
+        <div>{{batchIndex.rootInfo.id}}</div>
+        <md-button  class="md-raised" ng-click="applyFilter()">Apply</md-button>
+  </div> 
+  </section>
+
+</div>
